@@ -19,7 +19,7 @@ Tecnologías Utilizadas
     Fancybox: Para mostrar las imágenes en un formato de galería.
     SweetAlert2: Para mostrar mensajes de éxito o advertencia.
 
-    Uso
+Uso
 
     Buscar lugares: Ingresa el nombre de una ciudad o país en el campo de búsqueda y haz clic en "Buscar".
     Arrastra imágenes: Las imágenes encontradas se mostrarán en tarjetas. Puedes arrastrarlas al tablero de la derecha.
