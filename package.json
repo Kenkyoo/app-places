@@ -1,4 +1,10 @@
 {
+  "name": "my-project",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build index.html"
+  },  
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",
     "foundation-sites": "^6.8.1",
