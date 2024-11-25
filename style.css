@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid-container {
+    margin-top: 20px;
+}
+
+.bg-image {
+    min-height: 80vh;
+    height: auto;
+    background-image: url('img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;    
+}
+
+#tip {
+    float: right;
+    cursor: pointer;
+    padding: 16px;
+    margin-top: 15px;
+}
+
+#saveBtn {
+    margin-top: 15px;
+}
+
+.name-place{
+    font-family: "Grey Qo", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}

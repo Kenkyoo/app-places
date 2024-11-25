@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu align-center">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#table">Tu tablero</a></li>
+            <li><a href="#search">Buscar</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="grid-container" id="header">
+      <div class="grid-x align-center">
+        <h2 class="cell text-center">Tus lugares favoritos</h2>
+        <h4 class="cell subheader text-center">Busca y guarda tus lugares favoritos</h4>
+      </div>  
+    </header>
+
+    <div class="grid-container">
+      <div data-tooltip tabindex="3" title="Arrastra aqui las imagenes que quieras" class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6 bg-image" id="table"></div>
+      <a data-tooltip tabindex="1" title="Guardar los favoritos" class="button success" href="#" id="saveBtn">Guardar</a>
+      <span class="badge align-right" id="tip">Tip</span>
+    </div>
+
+    <div class="grid-container" id="search">
+      <div class="grid-x align-center">
+        <p data-tooltip tabindex="2" title="Escribe los lugares de las ciudades o paises que te gustaria conocer" class="cell lead text-center">Adonde te <em>gustaria</em> ir?</p>
+        <div class="cell small-4">  
+          <label>Buscar una ciudad, pais, etc.
+            <input type="text" id="searchInput" placeholder=".medium-6.cell">
+          </label>
+        </div>
+        <div>  
+          <button type="button" class="button text-center" id="searchBtn">Buscar</button>
+        </div>  
+      </div>
+    </div>  
+
+    <hr>
+
+    <div data-equalizer data-equalize-on="medium" class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6" id="container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "foundation-sites": "^6.8.1",
+    "jquery": "^3.7.1",
+    "jquery-backstretch": "^2.1.18",
+    "store": "^2.0.12",
+    "sweetalert2": "^11.12.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "@parcel/transformer-css": {
+    "errorRecovery": true
+  }
+}
